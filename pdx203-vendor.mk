@@ -683,3 +683,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx203/proprietary/vendor/lib64/camera/com.sony.sensormodule.eiger_imx557.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.eiger_imx557.bin \
     vendor/sony/pdx203/proprietary/vendor/lib64/camera/com.sony.sensormodule.eiger_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.eiger_s5k3t2.bin \
     vendor/sony/pdx203/proprietary/vendor/lib64/camera/com.sony.sensormodule.icarus_imx316.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.icarus_imx316.bin
+
+PRODUCT_PACKAGES += \
+    bdwlan_bdwlan_symlink \
+    bdwlan_bdwlan_symlink_1 \
+    bdwlan_bdwlan_symlink_2
